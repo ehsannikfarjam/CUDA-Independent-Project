@@ -1,0 +1,15 @@
+# Project Description: CUDA-Independent-Project
+
+## Development Thought Process
+The goal was to build a robust and scalable image processing tool that meets the "large data" requirements of the CUDA at Scale assignment. I chose the **NVIDIA Performance Primitives (NPP)** library because it provides highly optimized, scientifically accurate implementations of core image processing functions without the overhead of larger frameworks like OpenCV.
+
+## Algorithms and Kernels
+1.  **Luma Grayscale Conversion**: Instead of a simple average, I used the weighted luma formula ($Y = 0.299R + 0.587G + 0.114B$) implemented via `nppiRGBToGray`. This preserves perceived luminance, which is critical for accurate edge detection.
+2.  **Box Filter (Smoothing)**: I implemented a 3x3 Box Filter to perform image smoothing. This is a robust GPU-accelerated operation that demonstrates efficient spatial filtering using NPP.
+
+## Lessons Learned
+- **Memory Management**: Managing 2D pitched memory using `cudaMemcpy2D` and understanding NPP's "step" (stride) parameters was a key challenge. It is essential for efficient memory alignment on the GPU.
+- **Batch Processing**: Organizing the code to handle directory iteration while keeping GPU resources allocated throughout the process (where possible) is key to performance.
+
+## Results
+The pipeline successfully processes images of varying dimensions, producing clean edge maps. When run in a GPU-enabled environment, the processing time per image is significantly lower compared to a serial CPU implementation.

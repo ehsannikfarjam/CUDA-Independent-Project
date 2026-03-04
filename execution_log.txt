@@ -1,0 +1,42 @@
+Processing: data/input/img_018.ppm (436x336)
+Saved Box-Blurred image: data/output/img_018.ppm
+Processing: data/input/img_009.ppm (351x360)
+Saved Box-Blurred image: data/output/img_009.ppm
+Processing: data/input/img_001.ppm (458x332)
+Saved Box-Blurred image: data/output/img_001.ppm
+Processing: data/input/img_010.ppm (284x285)
+Saved Box-Blurred image: data/output/img_010.ppm
+Processing: data/input/img_005.ppm (275x306)
+Saved Box-Blurred image: data/output/img_005.ppm
+Processing: data/input/img_014.ppm (443x441)
+Saved Box-Blurred image: data/output/img_014.ppm
+Processing: data/input/img_003.ppm (276x437)
+Saved Box-Blurred image: data/output/img_003.ppm
+Processing: data/input/img_012.ppm (452x342)
+Saved Box-Blurred image: data/output/img_012.ppm
+Processing: data/input/img_007.ppm (340x325)
+Saved Box-Blurred image: data/output/img_007.ppm
+Processing: data/input/img_016.ppm (300x427)
+Saved Box-Blurred image: data/output/img_016.ppm
+Processing: data/input/img_019.ppm (273x478)
+Saved Box-Blurred image: data/output/img_019.ppm
+Processing: data/input/img_002.ppm (259x321)
+Saved Box-Blurred image: data/output/img_002.ppm
+Processing: data/input/img_011.ppm (508x297)
+Saved Box-Blurred image: data/output/img_011.ppm
+Processing: data/input/img_006.ppm (361x339)
+Saved Box-Blurred image: data/output/img_006.ppm
+Processing: data/input/img_015.ppm (444x293)
+Saved Box-Blurred image: data/output/img_015.ppm
+Processing: data/input/img_004.ppm (423x337)
+Saved Box-Blurred image: data/output/img_004.ppm
+Processing: data/input/img_013.ppm (272x304)
+Saved Box-Blurred image: data/output/img_013.ppm
+Processing: data/input/img_000.ppm (293x372)
+Saved Box-Blurred image: data/output/img_000.ppm
+Processing: data/input/img_008.ppm (270x276)
+Saved Box-Blurred image: data/output/img_008.ppm
+Processing: data/input/img_017.ppm (415x366)
+Saved Box-Blurred image: data/output/img_017.ppm
+
+Processed 20 images in 0.893313 seconds.
